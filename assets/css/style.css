@@ -1,0 +1,13 @@
+body {
+ background-image: url(assets/img/atmosphere.jpg);
+ background: repeat;
+ background-size: cover;
+ margin: 0 auto;
+}
+header {
+  text-align: center;
+  background-color: lightblue;
+}
+.center {
+text-align: center;
+}

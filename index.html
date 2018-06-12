@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Twitter</title>
+  <link rel="stylesheet" href="assets/css/grid.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <h1>Twitter</h1>
+
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <section class = 'center'>
+    <div class = 'row'>
+      <div class="col-6">
+        <h1>Reto Codigo</h1>
+        <p>Hola, algo se intenta</p>
+      </div>
+      <div class="col-6">
+        <div id = 'contad'>
+          <textarea class="txt" id="comment" placeholder="Añade un TWEET..." onKeyDown="contar()"></textarea>
+          <label></label>
+          <input disabled size = '3' value = '100' id ='contador'>
+          </div>
+          <div>
+              <button type="submit" id="btn"><i class="fas fa-plus" aria-hidden="true"></i> TWEET</button>
+          </div>
+      </div>
+     </div>
+
+     <div class="row">
+       <div class="col-12" id = 'cont'></div>
+     </div>
+     <div class="row">
+       <div class="col-12" id = 'contTwo'></div>
+     </div>
+
+  </section>
+
+  <script type="text/javascript" src="assets/js/app.js"></script>
+</body>
+</html>
